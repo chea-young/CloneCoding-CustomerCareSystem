@@ -18,5 +18,19 @@ yarn start
 ```
 npm install @material-ui/core
 ```
+5. Download nodemon
+```
+npm install -g nodemon
+npm install nodemon --save-dev
+```
+6. Run the server
+```
+yarn dev
+```
 
+### JSON check
+- [https://jsonlint.com/] 들어가서 json 문서를 붙여넣기 해보면 정상적인 데이터 인지 아닌지 확인 할 수 있다.
+
+#### NOTE
 - React는 marterial UI를 더 많이 사용(부트스트랩보다)
+- callAPI: API를 비동기적으로 불러 오도록 한다
