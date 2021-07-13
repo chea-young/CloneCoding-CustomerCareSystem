@@ -14,3 +14,9 @@ npx create-react-app [Project name]
 npm install -g yarn
 yarn start
 ```
+4. Download material-ui
+```
+npm install @material-ui/core
+```
+
+- React는 marterial UI를 더 많이 사용(부트스트랩보다)
