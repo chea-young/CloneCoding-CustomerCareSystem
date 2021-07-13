@@ -18,10 +18,11 @@ yarn start
 ```
 npm install @material-ui/core
 ```
-5. Download nodemon
+5. Download
 ```
 npm install -g nodemon
 npm install nodemon --save-dev
+npm install http-proxy-middleware --save
 ```
 6. Run the server
 ```
