@@ -13,9 +13,7 @@ import { withStyles } from "@material-ui/core/styles";
 const styles = (theme) => ({
   root: {
     width: "100%",
-
     marginTop: theme.spacing.unit * 3,
-
     overflowX: "auto",
   },
 
@@ -31,17 +29,13 @@ const styles = (theme) => ({
 class App extends Component {
   state = {
     customers: "",
-
     completed: 0,
   };
 
   componentDidMount() {
     this.timer = setInterval(this.progress, 20);
-
     this.callApi()
-
       .then((res) => this.setState({ customers: res }))
-
       .catch((err) => console.log(err));
   }
 
@@ -51,21 +45,17 @@ class App extends Component {
 
   callApi = async () => {
     const response = await fetch("/api/customers");
-
     const body = await response.json();
-
     return body;
   };
 
   progress = () => {
     const { completed } = this.state;
-
     this.setState({ completed: completed >= 100 ? 0 : completed + 1 });
   };
 
   render() {
     const { classes } = this.props;
-
     return (
       <Paper className={classes.root}>
         <Table className={classes.table}>
