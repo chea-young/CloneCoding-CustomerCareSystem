@@ -23,6 +23,7 @@ npm install @material-ui/core
 npm install -g nodemon
 npm install nodemon --save-dev
 npm install http-proxy-middleware --save
+npm install --save axios 
 ```
 6. Run the server
 ```
