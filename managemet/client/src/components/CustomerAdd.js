@@ -20,10 +20,20 @@ class CustomerAdd extends React.Component {
 
   handleFormSubmit(e) {
     e.preventDefault();
+
     this.addCustomer()
     .then((response) => {
       console.log(response.data);
     });
+    this.setState({
+      file: null,
+      userName: "",
+      birthday: "",
+      gender: "",
+      job: "",
+      fileName: "",
+    });
+    window.location.reload();
   }
 
   handleFileChange(e) {
@@ -52,6 +62,8 @@ class CustomerAdd extends React.Component {
         "content-type": "multipart/form-data",
       },
     };
+    console.log('CustomerAdd.js');
+    console.log(formData);
     return post(url, formData, config);
   }
 

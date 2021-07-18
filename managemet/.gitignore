@@ -24,3 +24,5 @@ yarn-error.log*
 
 #database
 ./database.json
+
+./upload/*

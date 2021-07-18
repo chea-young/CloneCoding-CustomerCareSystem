@@ -24,6 +24,7 @@ npm install -g nodemon
 npm install nodemon --save-dev
 npm install http-proxy-middleware --save
 npm install --save axios 
+npm install --save multer
 ```
 6. Run the server
 ```
