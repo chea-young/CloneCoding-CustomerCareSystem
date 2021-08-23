@@ -15,13 +15,10 @@ import Typography from "@material-ui/core/Typography";
 class CustomerDelete extends React.Component {
   constructor(props) {
     super(props);
-
     this.state = {
       open: false,
     };
-
     this.handleClickOpen = this.handleClickOpen.bind(this);
-
     this.handleClose = this.handleClose.bind(this);
   }
 

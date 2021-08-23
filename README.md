@@ -25,6 +25,8 @@ npm install nodemon --save-dev
 npm install http-proxy-middleware --save
 npm install --save axios 
 npm install --save multer
+cd client
+npm i @material-ui/icons --save
 ```
 6. Run the server
 ```
