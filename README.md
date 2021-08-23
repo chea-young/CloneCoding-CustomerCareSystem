@@ -1,7 +1,7 @@
 # Customer_Care_System
 - Web 기반의 고객 관리 시스템을 개발 Repository(Node.js, React, Mysql(AWS RDS))
 
-### Start
+### Start (for study)
 1. node 설치
 2. 리액트 앱 설치(글로벌 패키지로 설치)
     - 완성된 형태의 리액트 앱을 만들어준다.
@@ -30,6 +30,18 @@ npm i @material-ui/icons --save
 ```
 6. Run the server
 ```
+yarn dev
+```
+### Start
+- you have to make a './client/src/database.json' file. Please refer to [https://ndb796.tistory.com/220?category=1030599] when you make this.
+```
+git clone [URL]
+cd Customer_care_system
+cd management
+npm install
+cd client 
+npm install
+cd ..
 yarn dev
 ```
 
