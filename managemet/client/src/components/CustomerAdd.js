@@ -15,30 +15,9 @@ const styles = (theme) => ({
   },
 });
 
-import Dialog from "@material-ui/core/Dialog";
-
-import DialogActions from "@material-ui/core/DialogActions";
-
-import DialogContent from "@material-ui/core/DialogContent";
-
-import DialogTitle from "@material-ui/core/DialogTitle";
-
-import TextField from "@material-ui/core/TextField";
-
-import Button from "@material-ui/core/Button";
-
-import { withStyles } from "@material-ui/core/styles";
-
-const styles = (theme) => ({
-  hidden: {
-    display: "none",
-  },
-});
-
 class CustomerAdd extends React.Component {
   constructor(props) {
     super(props);
-
     this.state = {
       file: null,
       userName: "",
@@ -63,7 +42,6 @@ class CustomerAdd extends React.Component {
       console.log(response.data);
       this.props.stateRefresh();
     });
-
     this.setState({
       file: null,
       userName: "",
