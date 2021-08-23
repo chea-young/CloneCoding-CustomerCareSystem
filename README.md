@@ -1,5 +1,5 @@
 # Customer_Care_System
-- Web 기반의 고객 관리 시스템을 개발 Repository(Node.js, React, mongoDB)
+- Web 기반의 고객 관리 시스템을 개발 Repository(Node.js, React, Mysql(AWS RDS))
 
 ### Start
 1. node 설치
