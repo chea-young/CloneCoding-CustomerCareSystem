@@ -51,3 +51,6 @@ yarn dev
 #### NOTE
 - React는 marterial UI를 더 많이 사용(부트스트랩보다)
 - callAPI: API를 비동기적으로 불러 오도록 한다
+
+#### 참고사이트
+- goorm.edu의 'React와 Node.js를 활용한 고객 관리 시스템 개발' 강의
